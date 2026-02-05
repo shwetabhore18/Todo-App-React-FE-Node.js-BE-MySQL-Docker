@@ -1,6 +1,6 @@
-service:
+services: 
   todo-app:
     build: .
-    ports:
-     - "3001:3001"
-    container_name: todo-backend
+    ports: 
+      - "3001:3001"
+    container_name: todo-app-backend
